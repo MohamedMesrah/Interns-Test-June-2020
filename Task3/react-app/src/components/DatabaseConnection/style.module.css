@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+}
+form {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  float: right;
+  border: 1px solid rgb(196, 196, 196);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+form div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+form button {
+  margin: auto;
+}
+input {
+  padding: 5px;
+  float: left;
+  width: 50%;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 5px;
+}
+.file {
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 5px;
+  float: left;
+  margin: 20px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+[type="file"] {
+  margin: 20px;
+  width: 100%;
+  border: 1px solid transparent;
+}
+button {
+  width: fit-content;
+  padding: 5px;
+  background-color: rgb(38, 78, 255);
+  border: 2px solid rgb(38, 78, 255);
+  border-radius: 5px;
+  color: white;
+}
+button:hover {
+  background-color: rgb(74, 107, 255);
+  border: 2px solid rgb(74, 107, 255);
+  cursor: pointer;
+}
+label {
+  margin: auto;
+  float: left;
+  font-weight: bold;
+}
+
+button:disabled {
+  background-color: gray;
+  border: 2px solid rgb(92, 92, 92);
+  cursor: not-allowed;
+}

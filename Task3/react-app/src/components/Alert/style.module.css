@@ -1,0 +1,15 @@
+.alert {
+  width: clac(100% - 20px);
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.success {
+  background-color: rgba(138, 255, 154, 0.74);
+  color: green;
+}
+.error {
+  background-color: rgba(255, 153, 153, 0.76);
+  color: red;
+}
