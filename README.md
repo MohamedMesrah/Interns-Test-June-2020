@@ -27,7 +27,7 @@ to install the required dependencies
 ### `npm start`
 
 
-The server react app be started on localhost port 3000.
+The react app be started on localhost port 3000.
 
 
 For the backend part, you need to run node :
