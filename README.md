@@ -1,4 +1,4 @@
-Interns-Test-June-2020
+##Interns-Test-June-2020
 
 You should have these following things installed on your machine:
 
@@ -9,21 +9,22 @@ MySql.
 NPM.
 
 
-Task 1:
+##Task 1:
 
 Download the attached files and open index.html file directly.
 
 
-Task 3:
+##Task 3:
 
 Fot the frontend part, you need to run react :
 
 
-cd /path/to/react/app
+###cd /path/to/react/app
 
-npm install >>> to install the required dependencies
+###npm install
+to install the required dependencies
 
-npm start
+###npm start
 
 
 The server react app be started on localhost port 3000.
@@ -32,11 +33,12 @@ The server react app be started on localhost port 3000.
 For the backend part, you need to run node :
 
 
-cd /path/to/node/app
+###cd /path/to/node/app
 
-npm install >>> to install the required dependencies
+###npm install
+to install the required dependencies
 
-node app.js
+###node app.js
 
 
 The node server should be started on localhost port 5000.
